@@ -1,5 +1,6 @@
-{:paths   ["src"]
- :deps    {org.clojure/clojure          {:mvn/version "1.11.1"}
-           org.clojure/tools.deps.alpha {;; https://github.com/clojure/tools.deps.alpha/tree/add-lib3
-                                         :git/url "https://github.com/clojure/tools.deps.alpha"
-                                         :sha     "e4fb92eef724fa39e29b39cc2b1a850567d490dd"}}}
+{:paths ["src"]
+ :deps  {org.clojure/clojure          {:mvn/version "1.11.1"}
+         org.clojure/tools.deps.alpha {;; https://github.com/clojure/tools.deps.alpha/tree/add-lib3
+                                       :git/url "https://github.com/clojure/tools.deps.alpha"
+                                       :sha     "8f8fc2571e721301b6d52e191129248355cb8c5a"}
+         org.slf4j/slf4j-nop          {:mvn/version "1.7.36"}}} ;; slf4j-nop to fix SLF4J warning
