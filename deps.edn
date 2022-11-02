@@ -1,5 +1,6 @@
 {:paths ["src"]
  :deps  {babashka/fs                  {:mvn/version "0.1.11"}
+         org.apache.pdfbox/pdfbox     {:mvn/version "2.0.27"}
          org.clojure/clojure          {:mvn/version "1.11.1"}
          org.clojure/tools.deps.alpha {;; https://github.com/clojure/tools.deps.alpha/tree/add-lib3
                                        :git/url "https://github.com/clojure/tools.deps.alpha"
